@@ -13,6 +13,7 @@ A simple login form using HTML and CSS
 
 ## Folder Structure
 
+```
 .
 ├── README.md
 ├── index.html
@@ -22,6 +23,7 @@ A simple login form using HTML and CSS
 │           ├── logo.png
 │           └── logo1.png
 └── style.css
+```
 
 
 ## Contributing
