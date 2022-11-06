@@ -4,26 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <title>NexSkill#1</title>
   </head>
   <body>
     <div class="container">
-      <img class="logo" src="./src/assets/images/logo.png" />
-      <div class="card">
-        <form>
-          <div class="feildContainer">
-            <label class="lableText" for="fname">First name:</label><br />
-            <input class="inputText" type="text" id="fname" value="Rayan" />
-          </div>
-          <div class="feildContainer">
-            <label class="lableText" for="lname">Last name:</label><br />
-            <input class="inputText" type="text" id="lname" value="Abid" />
-          </div>
-
-          <input class="inputBtn" type="submit" value="Submit" />
-        </form>
+      <div>
+        <h2>Miles converter</h2>
       </div>
+
+      <div class="card">
+        <label for="drop-down">Convert:</label><br />
+        <select
+          onchange="onUpdatePlaceholder()"
+          class="inputText mb-2"
+          name="drop-down"
+          id="drop-down"
+        >
+          <option value="a">KM to Miles</option>
+          <option value="b">Miles to KM</option>
+        </select>
+        <br />
+
+        <label id="milesLabel" for="miles"></label>
+        <input
+          placeholder=""
+          class="inputText"
+          type="number"
+          id="miles"
+        /><br /><br />
+
+        <button class="inputBtn" onclick="onSubmit()">submit</button>
+      </div>
+
+      <div id="awnswer"></div>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
