@@ -1,9 +1,17 @@
 const onSubmit = () => {
-  var height = document.getElementById("height").value;
-  var weight = document.getElementById("weight").value;
-
-  var result = weight / height ** 2;
-  document.getElementById(
-    "awnswer"
-  ).innerHTML = `<p class="resultDiv">${result.toFixed(2)}</strong> </p>`;
+  var number = document.getElementById("numberval").value;
+  console.log("numbervalnumberval", number);
+  if (parseInt(number) >= 100) {
+    document.getElementById(
+      "awnswer"
+    ).innerHTML = `<p class="resultDiv">Number is greater than 100</strong> </p>`;
+  } else if (parseInt(number) <= 100) {
+    document.getElementById(
+      "awnswer"
+    ).innerHTML = `<p class="resultDiv">Number is less than 100</strong> </p>`;
+  } else {
+    document.getElementById(
+      "awnswer"
+    ).innerHTML = `<p class="resultDiv">Invalid number</strong> </p>`;
+  }
 };
