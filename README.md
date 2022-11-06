@@ -2,7 +2,7 @@
 
 NexSkill Assignment #3
 
-<img width="1440" alt="Screen Shot 2022-11-01 at 12 43 41 AM" src="https://user-images.githubusercontent.com/68749736/199096552-a564d1ed-51e5-477d-b43a-925be87d99ba.png">
+![Screenshot 2022-11-06 at 10 49 49 PM](https://user-images.githubusercontent.com/68749736/200186639-cb6743c9-6bec-4d9e-9142-424f3b2a33ee.png)
 
 ## Github pages link
 
