@@ -1,12 +1,13 @@
-# BMI calculator
+# Friend checker game
 
-NexSkill Assignment #3
+NexSkill Assignment #5
 
-<img width="1440" alt="Screen Shot 2022-11-01 at 12 43 41 AM" src="https://user-images.githubusercontent.com/68749736/199096552-a564d1ed-51e5-477d-b43a-925be87d99ba.png">
+![Screenshot 2022-11-06 at 11 23 55 PM](https://user-images.githubusercontent.com/68749736/200188253-c09ca2dd-c25a-4ef5-8820-7849acf0a15f.png)
 
-## Github pages link
 
-[Link](https://rayanabid.github.io/BMI-calculator)
+<!-- ## Github pages link -->
+
+<!-- [Link](https://rayanabid.github.io/BMI-calculator) -->
 
 ## Installation
 
