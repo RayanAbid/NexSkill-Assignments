@@ -4,10 +4,10 @@ NexSkill Assignment #2
 
 <img width="1440" alt="Screen Shot 2022-11-01 at 12 43 41 AM" src="https://user-images.githubusercontent.com/68749736/199096552-a564d1ed-51e5-477d-b43a-925be87d99ba.png">
 
-
+<!-- 
 ## Github pages link
 
-[Link](https://rayanabid.github.io/Kilometer-to-miles-converter)
+[Link](https://rayanabid.github.io/Kilometer-to-miles-converter) -->
 
 ## Installation
 
