@@ -1,17 +1,20 @@
 const onSubmit = () => {
-  var number = document.getElementById("numberval").value;
-  console.log("numbervalnumberval", number);
-  if (parseInt(number) >= 100) {
-    document.getElementById(
-      "awnswer"
-    ).innerHTML = `<p class="resultDiv">Number is greater than 100</strong> </p>`;
-  } else if (parseInt(number) <= 100) {
-    document.getElementById(
-      "awnswer"
-    ).innerHTML = `<p class="resultDiv">Number is less than 100</strong> </p>`;
-  } else {
-    document.getElementById(
-      "awnswer"
-    ).innerHTML = `<p class="resultDiv">Invalid number</strong> </p>`;
+  var name = document.getElementById("FriendName").value;
+
+  switch (name) {
+    case "Umair":
+    case "Saim":
+    case "Ramzan":
+    case "Amman":
+    case "Faizan":
+      document.getElementById(
+        "awnswer"
+      ).innerHTML = `<p class="resultDiv">I have a friend named ${name}</p>`;
+      break;
+
+    default:
+      document.getElementById(
+        "awnswer"
+      ).innerHTML = `<p class="resultDiv">Sorry I have no friends named: ${name}</p>`;
   }
 };
