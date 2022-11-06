@@ -1,6 +1,6 @@
-# BMI calculator
+# Number checker game
 
-NexSkill Assignment #3
+NexSkill Assignment #4
 
 <img width="1440" alt="Screen Shot 2022-11-01 at 12 43 41 AM" src="https://user-images.githubusercontent.com/68749736/199096552-a564d1ed-51e5-477d-b43a-925be87d99ba.png">
 
